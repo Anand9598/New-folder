@@ -1,0 +1,127 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100vh;
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px;
+    text-align: left;
+}
+
+.headings {
+    display: flex;
+    color: #f9f9f9;
+
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.heading {
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: gray;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+.task-input {
+    display: flex;
+    flex-direction: flex-start;
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    padding: 10px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.task-input button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.task-input button:hover {
+    background-color: gray;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.task-box {
+    display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 12px;
+    
+        background: gray;
+        box-shadow: 0px 5px 15px rgba(111, 110, 110, 0.25);
+    
+        padding: 10px;
+        margin: 2px;
+    
+        border-radius: 20px;
+    
+        width: 225px;
+        min-height: 120px;
+}
+
+.task-box h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.task {
+    background: white;
+        color: black;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    
+        padding: 12px;
+        border-radius: 15px;
+    
+        font-size: 16px;
+        cursor: move;
+        flex-shrink: 0;
+}
+
+.task:hover {
+    background-color: #ced4da;
+}
